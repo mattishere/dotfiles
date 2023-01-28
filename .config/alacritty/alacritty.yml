@@ -1,0 +1,61 @@
+font:
+
+  normal:
+    family: Robotomono Nerd Font
+    style: Regular
+  size: 12
+
+env:
+  WINIT_X11_SCALE_FACTOR: '1.0'
+  TERM: xterm-256color
+
+window:
+    padding:
+      x: 10
+      y: 10
+    opacity: .9
+    dynamic_title: true
+
+colors:
+  primary:
+    background:   "#1e1e2e"
+    foreground:   "#cdd6f4"
+
+    dim_foreground: "#cdd6f4"
+    bright_foreground: "#cdd6f4"
+
+  cursor:
+    text: "#1e1e1e"
+  vi_mode_cursor:
+    text: "#1e1e2e"
+
+
+  bright:
+    black:    "#585b70"
+    red:      "#f2a9ae"
+    green:    "#c1e8be"
+    yellow:   "#efe2c6"
+    blue:     "#a8c6f4"
+    magenta:  "#f4d4ec"
+    cyan:     "#bbeae2"
+    white:    "#a6adc8"
+
+  normal:
+    black:    "#45475a"
+    red:      "#f38ba8"
+    green:    "#a6e3a1"
+    yellow:   "#f9e2af"
+    blue:     "#89b4fa"
+    magenta:  "#f5c2e7"
+    cyan:     "#94e2d5"
+    white:    "#bac2de"
+
+key_bindings:
+  - { key: Right, mods: Alt, chars: "\x1bf" }
+  - { key: Left, mods: Alt, chars: "\x1bb" }
+  - { key: V, mods: Control|Alt, action: Paste }
+  - { key: C, mods: Control|Alt, action: Copy }
+  - { key: Paste, action: Paste }
+  - { key: Copy, action: Copy }
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
