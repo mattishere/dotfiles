@@ -1,7 +1,6 @@
 font:
-
   normal:
-    family: Robotomono Nerd Font
+    family: Hack
     style: Regular
   size: 12
 
@@ -15,6 +14,7 @@ window:
       y: 10
     opacity: .9
     dynamic_title: true
+    decorations: full
 
 colors:
   primary:

@@ -2,7 +2,7 @@
 set $mod Mod4
 
 # Font
-font pango:RobotoMono 14px
+font pango:Hack 14px
 
 
 # Network Manager

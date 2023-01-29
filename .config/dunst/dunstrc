@@ -2,7 +2,7 @@
 frame_color = "#a6e3a1"
 frame_width = 1
 separator_color = frame 
-font = RobotoMono Nerd Font 10
+font = Hack 10
 
 [urgency_low]
 background ="#1e1e2e"
