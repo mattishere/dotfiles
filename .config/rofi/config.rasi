@@ -1,0 +1,16 @@
+configuration {
+	show-icons: true;
+	terminal: "alacritty";
+	icon-theme: "Papirus Dark";
+	drun-display-format: "{icon} {name}";
+	location: 0;
+	disable-history: false;
+	hide-scrollbar: true;
+	display-drun: "󰀸 apps";
+	display-run: " run";
+	display-window: " windows";
+	display-ssh: "󰴼 ssh";
+	sidebar-mode: true;
+}
+
+@theme "themes/catppuccin.rasi"

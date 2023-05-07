@@ -1,0 +1,17 @@
+[global]
+frame_color = "#ffffff"
+frame_width = 0
+separator_color = frame 
+font = Hack 11
+
+[urgency_low]
+background ="#303446"
+foreground = "#c6d0f5"
+
+[urgency_normal]
+background = "#303446"
+foreground = "#c6d0f5"
+
+[urgency_critical]
+background = "#282828"
+foreground = "#c6d0f5"
