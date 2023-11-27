@@ -1,0 +1,1 @@
+You can find my neovim config [here](https://github.com/mattishere/nvim).

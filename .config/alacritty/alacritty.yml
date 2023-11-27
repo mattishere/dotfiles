@@ -1,0 +1,53 @@
+font:
+  normal:
+    family: Cousine Nerd Font
+    style: Regular
+  size: 12
+
+env:
+  WINIT_X11_SCALE_FACTOR: '1.0'
+  TERM: xterm-256color
+
+window:
+    padding:
+      x: 8 
+      y: 8
+    opacity: 0.9
+    dynamic_title: true
+    decorations: full
+
+colors:
+  primary:
+    background:   "#303446"
+    foreground:   "#C6D0F5"
+
+  bright:
+    black:    "#626880"
+    red:      "#E78284"
+    green:    "#A6D189"
+    yellow:   "#E5C890"
+    blue:     "#8CAAEE"
+    magenta:  "#F4B8E4"
+    cyan:     "#81C8BE"
+    white:    "#E1E3EA"
+
+
+  normal:
+    black:    "#51576D"
+    red:      "#DB5759"
+    green:    "#8EC16C"
+    yellow:   "#E0B96B"
+    blue:     "#7193E2"
+    magenta:  "#EF9ED5"
+    cyan:     "#63BFB3"
+    white:    "#C5C9D8"
+
+key_bindings:
+  - { key: Right, mods: Alt, chars: "\x1bf" }
+  - { key: Left, mods: Alt, chars: "\x1bb" }
+  - { key: V, mods: Control|Alt, action: Paste }
+  - { key: C, mods: Control|Alt, action: Copy }
+  - { key: Paste, action: Paste }
+  - { key: Copy, action: Copy }
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
